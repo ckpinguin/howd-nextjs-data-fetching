@@ -4,7 +4,7 @@ This code supports the "AI Style Generator" challenge series from the [Hands-on 
 
 To try the first workshop, [start here](https://newsletter.howd.dev/challenges/023/)!
 
-This workshop is a continuation of the [React Components](https://newsletter.howd.dev/challenges/017/) workshop series.
+This workshop builds on the [React Components](https://newsletter.howd.dev/challenges/017/) workshop series. If you haven't looked at that series, you might want to start there.
 
 ## Getting started
 
