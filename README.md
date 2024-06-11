@@ -2,9 +2,9 @@
 
 This code supports the "AI Style Generator" challenge series from the [Hands-on Web Dev newsletter](https://newsletter.howd.dev).
 
-To try the first workshop, [start here](https://newsletter.howd.dev/challenges/023/)!
+To try the first workshop in this series, [start here](https://newsletter.howd.dev/challenges/023/)!
 
-This workshop builds on the [React Components](https://newsletter.howd.dev/challenges/017/) workshop series. If you haven't looked at that series, you might want to start there.
+This workshop builds on the [React Components](https://newsletter.howd.dev/challenges/017/) workshop series. If you haven't looked at that series, you might want to start there instead.
 
 ## Getting started
 
