@@ -19,6 +19,8 @@ You should see a page that looks like this:
 
 ## Generate an OpenAI API key
 
+You will need an OpenAI API key to interact with the OpenAI API for this workshop series.
+
 1. Create [an OpenAI account](https://platform.openai.com/signup) (if you don't already have one)
 2. Once you're logged in to your account, [create an API key](https://platform.openai.com/account/api-keys)
 
