@@ -17,8 +17,14 @@ You should see a page that looks like this:
 
 ![mostly empty page with a pale green background and a footer leading to https://newsletter.howd.dev](./readme-images/scaffolding-home.png)
 
+## Generate an OpenAI API key
+
+1. Create [an OpenAI account](https://platform.openai.com/signup) (if you don't already have one)
+2. Once you're logged in to your account, [create an API key](https://platform.openai.com/account/api-keys)
+
 ## This project uses...
 
+- The [OpenAI Node SDK](https://platform.openai.com/docs/quickstart?context=node)
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [CSS modules](https://github.com/css-modules/css-modules)
