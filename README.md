@@ -1,8 +1,10 @@
-# Hands-on Web Dev React Components
+# Hands-on Web Dev AI Style Generator
 
-This code supports the "React Components" challenge series from the [Hands-on Web Dev newsletter](https://newsletter.howd.dev).
+This code supports the "AI Style Generator" challenge series from the [Hands-on Web Dev newsletter](https://newsletter.howd.dev).
 
-To try the workshop, [start here](https://newsletter.howd.dev/challenges/017/)!
+To try the first workshop, [start here](https://newsletter.howd.dev/challenges/023/)!
+
+This workshop is a continuation of the [React Components](https://newsletter.howd.dev/challenges/017/) workshop series.
 
 ## Getting started
 
