@@ -17,7 +17,7 @@ function StyleGenerator() {
     const json = await response.json();
     // expecting JSON to have a `quotation` property,
     // based on the route handler from last workshop
-    setQuote(json.quotation);
+    setQuote(json.quote);
   };
 
   return (
