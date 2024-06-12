@@ -1,7 +1,9 @@
+import { NextResponse } from "next/server";
+
 import { getRandomQuote } from "@/helpers/random-quotes";
 
 export async function GET() {
   const generatedQuote = getRandomQuote();
 
-  return Response.json({ quotation: generatedQuote });
+  return NextResponse.json({ quote: generatedQuote });
 }
