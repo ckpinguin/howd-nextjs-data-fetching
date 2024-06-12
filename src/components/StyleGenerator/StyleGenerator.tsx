@@ -15,7 +15,7 @@ function StyleGenerator() {
   const handleClick = async () => {
     const response = await fetch("/api/get-quote-style");
     const json = await response.json();
-    // expecting JSON to have a `quotation` property,
+    // expecting JSON to have a `quote` property,
     // based on the route handler from last workshop
     setQuote(json.quote);
   };
