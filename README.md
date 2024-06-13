@@ -26,7 +26,7 @@ You will need an OpenAI API key to interact with the OpenAI API for this worksho
 
 ## This project uses...
 
-- The [OpenAI Node SDK](https://platform.openai.com/docs/quickstart?context=node)
+- The [OpenAI Node SDK](https://github.com/openai/openai-node)
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [CSS modules](https://github.com/css-modules/css-modules)
