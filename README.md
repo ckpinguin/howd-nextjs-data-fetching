@@ -4,11 +4,11 @@ This code supports the "Next.js Data Fetching" challenge series from the [Hands-
 
 To try the first workshop in this series, [start here](https://newsletter.howd.dev/challenges/023/)!
 
-## Related workshop series
+## Related series
 
-This workshop series builds on the [React Components](https://newsletter.howd.dev/challenges/017/) workshop series. If you haven't looked at that series, you might want to start there instead.
+This series builds on the [React Components](https://newsletter.howd.dev/challenges/017/) series. If you haven't looked at that series, you might want to start there instead.
 
-The work from this series will be used in the following workshop series: [AI Style Generator](https://newsletter.howd.dev/challenges/029/), where you will use the [OpenAI Node SDK](https://github.com/openai/openai-node) to generate styles for the quote fetched in this series.
+The work from this series will be used in the following series: [AI Style Generator](https://newsletter.howd.dev/challenges/029/), where you will use the [OpenAI Node SDK](https://github.com/openai/openai-node) to generate styles for the quote fetched in this series.
 
 ## Getting started
 
