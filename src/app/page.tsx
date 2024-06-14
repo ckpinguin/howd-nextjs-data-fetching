@@ -8,6 +8,8 @@ import useQuoteStyle from "@/hooks/use-quote-style";
 
 import styles from "./page.module.css";
 
+type Status = "idle" | "loading" | "error";
+
 export default function Home() {
   const { status, error, quote, fetchQuoteStyle } = useQuoteStyle();
 
@@ -18,7 +20,6 @@ export default function Home() {
       <Card textColor="aliceBlue" backgroundColor="mediumBlue">
         {quote}
       </Card>
-      <Footer />
     </main>
   );
 }
