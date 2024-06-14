@@ -2,7 +2,6 @@
 
 import Button from "@/components/Button";
 import Card from "@/components/Card";
-import Footer from "@/components/Footer";
 import Separator from "@/components/Separator";
 import useQuoteStyle from "@/hooks/use-quote-style";
 
