@@ -2,8 +2,10 @@
 
 import React from "react";
 
+import styles from "./StyleGenerator.module.css";
+
 function StyleGenerator() {
-  return <div>{/* where the magic happens */}</div>;
+  return <div className={styles.wrapper}>{/* where the magic happens */}</div>;
 }
 
 export default StyleGenerator;

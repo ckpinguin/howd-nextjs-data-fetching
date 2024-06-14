@@ -1,6 +1,7 @@
 // sources:
 //   https://www.kaggle.com/datasets/santhalnr/quotations
 //   https://www.kaggle.com/datasets/usmanhaider123/english-quotations
+// The quotes don't necessarily reflect the views of the instructor!
 
 export const quotes = [
   "Acting is the least mysterious of all crafts. Whenever we want something from somebody or when we want to hide something or pretend, we're acting. Most people do it all day long.",
