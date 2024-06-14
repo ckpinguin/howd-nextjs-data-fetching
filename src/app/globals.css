@@ -45,4 +45,14 @@ body {
 body {
   color: var(--color-olive-12);
   background-color: var(--color-olive-3);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 1rem;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 35rem;
+  margin: 0 auto;
 }
