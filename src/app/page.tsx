@@ -5,8 +5,6 @@ import Button from "@/components/Button";
 import Card from "@/components/Card";
 import Separator from "@/components/Separator";
 
-import styles from "./page.module.css";
-
 export default function Home() {
   // `<string>` is for TypeScript, since
   //    this state starts out as undefined
@@ -21,7 +19,7 @@ export default function Home() {
   };
 
   return (
-    <main className={styles.main}>
+    <main>
       <Button onClick={handleClick}>use random quote</Button>
       <Separator />
       <Card textColor="aliceBlue" backgroundColor="mediumBlue">
