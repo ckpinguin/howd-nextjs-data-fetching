@@ -19,6 +19,7 @@ export default function Home() {
     // based on the route handler from last workshop
     setQuote(json.quote);
   };
+
   return (
     <main className={styles.main}>
       <Button onClick={handleClick}>use random quote</Button>
