@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
 
-import styles from "./page.module.css";
-
 export default function Home() {
-  return <main className={styles.main}>{/* where the magic happens */}</main>;
+  return <main>{/* where the magic happens */}</main>;
 }
