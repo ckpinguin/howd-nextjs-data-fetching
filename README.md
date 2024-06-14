@@ -1,10 +1,14 @@
-# Hands-on Web Dev AI Style Generator
+# Hands-on Web Dev Next.js Data Fetching
 
-This code supports the "AI Style Generator" challenge series from the [Hands-on Web Dev newsletter](https://newsletter.howd.dev).
+This code supports the "Next.js Data Fetching" challenge series from the [Hands-on Web Dev newsletter](https://newsletter.howd.dev).
 
 To try the first workshop in this series, [start here](https://newsletter.howd.dev/challenges/023/)!
 
-This workshop builds on the [React Components](https://newsletter.howd.dev/challenges/017/) workshop series. If you haven't looked at that series, you might want to start there instead.
+## Related workshop series
+
+This workshop series builds on the [React Components](https://newsletter.howd.dev/challenges/017/) workshop series. If you haven't looked at that series, you might want to start there instead.
+
+The work from this series will be used in the following workshop series: [AI Style Generator](https://newsletter.howd.dev/challenges/029/), where you will use the [OpenAI Node SDK](https://github.com/openai/openai-node) to generate styles for the quote fetched in this series.
 
 ## Getting started
 
@@ -17,16 +21,8 @@ You should see a page that looks like this:
 
 ![mostly empty page with a pale green background and a footer leading to https://newsletter.howd.dev](./readme-images/scaffolding-home.png)
 
-## Generate an OpenAI API key
-
-You will need an OpenAI API key to interact with the OpenAI API for this workshop series.
-
-1. Create [an OpenAI account](https://platform.openai.com/signup) (if you don't already have one)
-2. Once you're logged in to your account, [create an API key](https://platform.openai.com/account/api-keys)
-
 ## This project uses...
 
-- The [OpenAI Node SDK](https://platform.openai.com/docs/quickstart?context=node)
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [CSS modules](https://github.com/css-modules/css-modules)
