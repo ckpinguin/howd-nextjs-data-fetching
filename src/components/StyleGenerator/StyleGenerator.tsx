@@ -12,21 +12,34 @@ type Status = "idle" | "loading" | "error";
 function StyleGenerator() {
   const [quote, setQuote] = React.useState<string>();
   const [status, setStatus] = React.useState<Status>("idle");
+  const [error, setError] = React.useState<string>();
 
   console.log("STATUS", status);
+  console.log("ERROR", error);
 
   const handleClick = async () => {
-    // start request
-    setStatus("loading");
-    const response = await fetch("/api/get-quote-style");
-    const json = await response.json();
-    // expecting JSON to have a `quote` property,
-    // based on the route handler from last workshop
-    setQuote(json.quote);
+    // reset error
+    setError(undefined);
 
-    // set status back to idle
-    // after everything's settled
-    setStatus("idle");
+    try {
+      // start request
+      setStatus("loading");
+      const response = await fetch("/api/get-quote-style");
+      if (!response.ok) {
+        throw new Error(response.statusText);
+      }
+
+      const json = await response.json();
+      if (!json?.quote) {
+        throw new Error("Malformed response");
+      }
+
+      setQuote(json.quote);
+      setStatus("idle");
+    } catch (error) {
+      setError(error?.toString());
+      setStatus("error");
+    }
   };
 
   return (
