@@ -1,23 +1,13 @@
-"use client";
-
 import React from "react";
-
-import Button from "../Button";
-import Card from "../Card";
-import Separator from "../Separator";
-import styles from "./StyleGenerator.module.css";
 
 type Status = "idle" | "loading" | "error";
 
-function StyleGenerator() {
+function useQuoteStyle() {
   const [quote, setQuote] = React.useState<string>();
   const [status, setStatus] = React.useState<Status>("idle");
   const [error, setError] = React.useState<string>();
 
-  console.log("STATUS", status);
-  console.log("ERROR", error);
-
-  const handleClick = async () => {
+  const fetchQuoteStyle = async () => {
     // reset error
     setError(undefined);
 
@@ -42,15 +32,7 @@ function StyleGenerator() {
     }
   };
 
-  return (
-    <div className={styles.wrapper}>
-      <Button onClick={handleClick}>use random quote</Button>
-      <Separator />
-      <Card textColor="aliceBlue" backgroundColor="mediumBlue">
-        {quote}
-      </Card>
-    </div>
-  );
+  return { status, error, quote, fetchQuoteStyle };
 }
 
-export default StyleGenerator;
+export default useQuoteStyle;
