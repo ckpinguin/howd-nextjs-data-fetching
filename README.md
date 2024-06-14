@@ -1,6 +1,6 @@
 # Hands-on Web Dev Next.js Data Fetching
 
-This code supports the "Next.js Data Fetching" challenge series from the [Hands-on Web Dev newsletter](https://newsletter.howd.dev).
+This code supports the "Next.js Data Fetching" series from the [Hands-on Web Dev newsletter](https://newsletter.howd.dev).
 
 To try the first workshop in this series, [start here](https://newsletter.howd.dev/challenges/023/)!
 
