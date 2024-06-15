@@ -1,6 +1,6 @@
 import React from "react";
 
-type Status = "idle" | "loading" | "error";
+import type { Status } from "@/types";
 
 function useQuoteStyle() {
   const [quote, setQuote] = React.useState<string>();
