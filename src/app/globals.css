@@ -55,4 +55,5 @@ body {
   width: 100%;
   max-width: 35rem;
   margin: 0 auto;
+  overflow-x: visible;
 }
