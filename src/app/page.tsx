@@ -3,10 +3,10 @@
 import Button from "@/components/Button";
 import Card from "@/components/Card";
 import Separator from "@/components/Separator";
-import useQuoteStyle from "@/hooks/use-quote-style";
+import useQuoteStyles from "@/hooks/use-quote-style";
 
 export default function Home() {
-  const { status, error, quote, fetchQuoteStyle } = useQuoteStyle();
+  const { status, error, quote, fetchQuoteStyle } = useQuoteStyles();
 
   return (
     <main>

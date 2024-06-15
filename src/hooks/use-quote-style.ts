@@ -2,7 +2,7 @@ import React from "react";
 
 type Status = "idle" | "loading" | "error";
 
-function useQuoteStyle() {
+function useQuoteStyles() {
   const [quote, setQuote] = React.useState<string>();
   const [status, setStatus] = React.useState<Status>("idle");
   const [error, setError] = React.useState<string>();
@@ -35,4 +35,4 @@ function useQuoteStyle() {
   return { status, error, quote, fetchQuoteStyle };
 }
 
-export default useQuoteStyle;
+export default useQuoteStyles;
