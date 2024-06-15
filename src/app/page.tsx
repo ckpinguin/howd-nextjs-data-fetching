@@ -5,8 +5,6 @@ import Card from "@/components/Card";
 import Separator from "@/components/Separator";
 import useQuoteStyle from "@/hooks/use-quote-style";
 
-type Status = "idle" | "loading" | "error";
-
 export default function Home() {
   const { status, error, quote, fetchQuoteStyle } = useQuoteStyle();
 
