@@ -6,11 +6,11 @@ import Separator from "@/components/Separator";
 import useQuoteStyles from "@/hooks/use-quote-style";
 
 export default function Home() {
-  const { status, error, quote, fetchQuoteStyle } = useQuoteStyles();
+  const { status, error, quote, fetchQuoteStyles } = useQuoteStyles();
 
   return (
     <main>
-      <Button onClick={fetchQuoteStyle}>use random quote</Button>
+      <Button onClick={fetchQuoteStyles}>use random quote</Button>
       <Separator />
       <Card textColor="aliceBlue" backgroundColor="mediumBlue">
         {quote}
