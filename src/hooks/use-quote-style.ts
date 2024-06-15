@@ -7,7 +7,7 @@ function useQuoteStyles() {
   const [status, setStatus] = React.useState<Status>("idle");
   const [error, setError] = React.useState<string>();
 
-  const fetchQuoteStyle = async () => {
+  const fetchQuoteStyles = async () => {
     // reset error
     setError(undefined);
 
@@ -32,7 +32,7 @@ function useQuoteStyles() {
     }
   };
 
-  return { status, error, quote, fetchQuoteStyle };
+  return { status, error, quote, fetchQuoteStyles };
 }
 
 export default useQuoteStyles;
