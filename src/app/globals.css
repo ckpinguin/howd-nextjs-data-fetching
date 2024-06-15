@@ -1,5 +1,7 @@
 :root {
   /* colors from Radix UI colors: https://www.radix-ui.com/colors */
+  --color-tomato-11: #d13415;
+
   --color-olive-1: #fcfdfc;
   --color-olive-2: #f8faf8;
   --color-olive-3: #eff1ef;
