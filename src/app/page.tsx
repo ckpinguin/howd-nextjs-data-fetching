@@ -16,7 +16,7 @@ export default function Home() {
   const handleClick = async () => {
     // start request
     setStatus("loading");
-    const response = await fetch("/api/get-quote-style");
+    const response = await fetch("/api/get-quote-styles");
     const json = await response.json();
     // expecting JSON to have a `quote` property,
     // based on the route handler from last workshop
