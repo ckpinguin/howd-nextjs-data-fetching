@@ -22,7 +22,7 @@ export default function Home() {
     try {
       // start request
       setStatus("loading");
-      const response = await fetch("/api/get-quote-style");
+      const response = await fetch("/api/get-quote-styles");
       if (!response.ok) {
         throw new Error(response.statusText);
       }
