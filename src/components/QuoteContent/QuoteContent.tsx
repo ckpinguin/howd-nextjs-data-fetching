@@ -1,7 +1,8 @@
 import React from "react"
 
 import styles from "./QuoteContent.module.css"
+import Card from "../Card"
 
 export default function QuoteContent() {
-  return <div>QuoteContent</div>
-}
+  const quote = 'Test'
+  return <Card>{quote ? quote : null}</Card>
