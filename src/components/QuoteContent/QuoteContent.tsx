@@ -1,8 +1,29 @@
 import React from "react"
 
-import styles from "./QuoteContent.module.css"
-import Card from "../Card"
+import { Status } from "@/app/types"
 
-export default function QuoteContent() {
-  const quote = 'Test'
-  return <Card>{quote ? quote : null}</Card>
+import Card from "../Card"
+import ErrorCard from "../ErrorCard"
+import Spinner from "../Spinner"
+
+export interface QuoteContentProps {
+  status: Status
+  quote?: string
+  error?: string
+}
+
+export default function QuoteContent({
+  status,
+  quote,
+  error,
+}: QuoteContentProps) {
+  if (status === "loading") return <Spinner />
+  if (status === "error") return <ErrorCard error={error} />
+  if (quote)
+    return (
+      <Card textColor="aliceBlue" backgroundColor="mediumBlue">
+        {quote}
+      </Card>
+    )
+  return undefined
+}

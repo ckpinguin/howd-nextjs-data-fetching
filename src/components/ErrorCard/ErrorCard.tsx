@@ -2,11 +2,11 @@ import React from "react"
 
 import Card from "../Card"
 
-export default function ErrorCard({ error }: { error: string }) {
+export default function ErrorCard({ error }: { error?: string }) {
   return (
     <Card textColor="white" backgroundColor="var(--color-tomato-11)">
       <h2>An error occurred:</h2>
-      {error ? <p>{error}</p> : <p>Unknown error</p>}
+      <p>{error}</p>
     </Card>
   )
 }
